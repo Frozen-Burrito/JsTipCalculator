@@ -6,16 +6,22 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Tip Calculator</title>
 
+    <link rel='stylesheet' href='css/main.css'>
 </head>
 <body>
-    <form name="calculator">
-        <input type="text" id="bill" placeholder="$ Total">
-        <input type="text" id="people" placeholder="Number of People">
+    <div id="calculator">
+        <h1>Tip Calculator</h1>
+        <p>This is a very simple calculator I made using HTML, Css and Js.</p>
+        
+        <form name="calculator">
+            <input type="text" id="bill" placeholder="$ Total">
+            <input type="text" id="people" placeholder="Number of People">
 
-        <input type="button" value="Calculate" onclick="calculateTip()">
-    </form>
-    
-    <h2 id="tipResult">$0</h2>
+            <input type="button" value="Calculate" onclick="calculateTip()">
+        </form>
+        
+        <h2 id="tipResult">$0</h2>
+    </div>
 
     <script type="text/javascript" src="index.js"></script>
 </body>
